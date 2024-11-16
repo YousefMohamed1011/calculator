@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Grey+Qo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  <body >
+    <div class="calc">
+      <input type="text" id="display" readonly>
+      <input type="text" id="res" readonly>
+      <div class="btn">
+        <button onclick="non(`+`)" class="co">+</button>
+        <button onclick="non(`7`)">7</button>
+        <button onclick="non(`8`)">8</button>
+        <button onclick="non(`9`)">9</button>
+        <button onclick="non(`-`)" class="co">-</button>
+        <button onclick="non(`4`)">4</button>
+        <button onclick="non(`5`)">5</button>
+        <button onclick="non(`6`)">6</button>
+        <button onclick="non(`*`)" class="co">*</button>
+        <button onclick="non(`1`)">1</button>
+        <button onclick="non(`2`)">2</button>
+        <button onclick="non(`3`)">3</button>
+        <button onclick="non(`/`)" class="co">/</button>
+        <button onclick="non(`0`)">0</button>
+        <button onclick="non(`.`)">.</button>
+
+        <button onclick="calc()" >=</button>
+        <button onclick="cl()" class="co">C</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+</html>
